@@ -1,0 +1,111 @@
+
+
+.body {
+    background-size: 200vh; /* Adjusts the size of the background image */
+    height: 100vh; /* 100% of the viewport height */
+    margin: 0;
+    overflow-y: auto; /* Enable vertical scrolling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu{
+    display: center;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 30%;
+    background-color: #48b9ff;
+    position: fixed;
+    z-index: 1000;
+    margin-top: 30vh;
+    margin-bottom: 50vh;
+    margin-right: 50%;
+    margin-left: 33%;
+    border-radius: 15px ;
+    box-shadow: 10px 8px 10px #85f8f8d6 ;
+
+}
+.menu :hover {
+    transform: scale(1.1); /* Scale up the box by 10% when hovered */
+}
+.menu1{
+    display: center;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 30%;
+    background-color: #3f58fd;
+    position: fixed;
+    z-index: 1000;
+    margin-top: 45vh;
+    margin-bottom: 50vh;
+    margin-right: 50%;
+    margin-left: 33%;
+    border-radius: 15px ;
+    box-shadow: 10px 8px 10px #011fcdd6 ;
+
+}
+.menu2{
+    display: center;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 30%;
+    background-color: #317cff;
+    position: fixed;
+    z-index: 1000;
+    margin-top: 60vh;
+    margin-bottom: 50vh;
+    margin-right: 50%;
+    margin-left: 33%;
+    border-radius: 15px ;
+    box-shadow: 10px 8px 10px #049fffd6 ;
+
+}
+.menu3{
+    display: center;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 30%;
+    background-color: #06db1f;
+    position: fixed;
+    z-index: 1000;
+    margin-top: 75vh;
+    margin-bottom: 50vh;
+    margin-right: 50%;
+    margin-left: 33%;
+    border-radius: 15px ;
+    box-shadow: 10px 8px 10px #2ce16ed6 ;
+
+}
+
+.hy{
+text-align: center;
+font-family: "Fredoka", sans-serif;
+font-weight: 300;
+
+}
+
+
+.hy1{
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 300;
+    
+    }
+
+.hy2{
+   text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 300;  
+        }
+
+.hy3{
+     text-align: center;
+     font-family: "Fredoka", sans-serif;
+    font-weight: 300;  
+     }

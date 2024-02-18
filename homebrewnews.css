@@ -1,0 +1,50 @@
+
+.body {
+    background-size: 200vh; /* Adjusts the size of the background image */
+    height: 100vh; /* 100% of the viewport height */
+    margin: 0;
+    overflow-y: auto; /* Enable vertical scrolling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.titlebar{
+ display: center;
+ margin-top: 3%;
+ margin-bottom: 94%;
+border-radius: 10%;
+}
+.titlebar2{
+    display: center;
+    margin-top: 40%;
+    margin-bottom: 60%;
+   border-radius: 10%;
+   }
+.hy1{
+    position: absolute; /* Position text relative to its container */
+    top: 50%; /* Place text vertically centered */
+    left: 50%; /* Place text horizontally centered */
+    transform: translate(-370%, -1050%); /* Adjust to center properly */
+    font-family: "Fredoka", sans-serif;
+    font-weight: 300;
+    font-optical-sizing: auto;
+    margin: 0; /* Remove margin */
+    color: #000dff; /* Green text color */
+    text-shadow: 0 0 10px #0004ff, 0 0 20px #6600ff, 0 0 30px #744aff; /* Green glowing effect */
+}
+
+.hy2{
+    position: absolute; /* Position text relative to its container */
+    top: 50%; /* Place text vertically centered */
+    left: 50%; /* Place text horizontally centered */
+    transform: translate(-150%, 3630%); /* Adjust to center properly */
+    font-family: "Fredoka", sans-serif;
+    font-weight: 300;
+    font-optical-sizing: auto;
+    margin: 0; /* Remove margin */
+    color: #000dff; /* Green text color */
+    text-shadow: 0 0 10px #0004ff, 0 0 20px #6600ff, 0 0 30px #744aff; /* Green glowing effect */
+}
